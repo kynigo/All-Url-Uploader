@@ -26,95 +26,75 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-Hi {} 
-
-I am Powerful Url Uploader Bot
- 
+<code>⛷ Running ... </code> 
 """
 
     HELP_TEXT = """
-
-# Send me the Google Drive | ytdl | direct links.
-
-# Select the desired option.
-
-# Then be relaxed your file will be uploaded soon..
- 
+<b>➪ Send me the Google Drive | ytdl | direct links.
+➪ Select the desired option.
+➪ Then be relaxed your file will be uploaded soon..</b> 
 """
 
 # give credit to developer
 
     ABOUT_TEXT = """
-<b>♻️ My Name</b> : Url Uploader Bot
-
-<b>🌀 Channel</b> : <a href="https://t.me/TMWAD">@TMWAD</a>
-
-<b>🌺 Heroku</b> : <a href="https://heroku.com/">Heroku</a>
-
-<b>📑 Language :</b> <a href="https://www.python.org/">Python 3.10.5</a>
-
-<b>🇵🇲 Framework :</b> <a href="https://docs.pyrogram.org/">Pyrogram 2.0.30</a>
-
-<b>👲 Developer :</b> <a href="https://t.me/kinu6">@kinu6</a>
+<b>➪ Channel</b> : <a href="https://t.me/DevAXD">@DevAXD</a>
+<b>➪ Language :</b> <a href="https://www.python.org/">Python 3.10.5</a>
+<b>➪ Developer :</b> <a href="https://t.me/slogan_98">@slogan_98</a>
 
 """
 
     PROGRESS = """
-🔰 Speed : {3}/s\n\n
-🌀 Done : {1}\n\n
-🎥 Tᴏᴛᴀʟ sɪᴢᴇ  : {2}\n\n
-⏳ Tɪᴍᴇ ʟᴇғᴛ : {4}\n\n
+➪ Speed : {3}/s\n\n
+➪ Done : {1}\n\n
+➪ Tᴏᴛᴀʟ sɪᴢᴇ  : {2}\n\n
+➪ Tɪᴍᴇ ʟᴇғᴛ : {4}\n\n
 """
     ID_TEXT = """
-🆔 Your Telegram ID 𝐢𝐬 :- <code>{}</code>
+➪ Your Telegram ID 𝐢𝐬 :- <code>{}</code>
 """
 
     INFO_TEXT = """
-
- 🤹 First Name : <b>{}</b>
-
- 🚴‍♂️ Second Name : <b>{}</b>
-
- 🧑🏻‍🎓 Username : <b>@{}</b>
-
- 🆔 Telegram Id : <code>{}</code>
-
- 📇 Profile Link : <b>{}</b>
-
- 📡 Dc : <b>{}</b>
-
- 📑 Language : <b>{}</b>
-
- 👲 Status : <b>{}</b>
+━━━━━━━━━ ✧ ━━━━━━━━
+ ➪ First Name : <b>{}</b>
+ ➪ Second Name : <b>{}</b>
+ ➪ Username : <b>@{}</b>
+ 
+ ➪ Telegram Id : <code>{}</code>
+ ➪ Profile Link : <b>{}</b>
+ ➪ Dc : <b>{}</b>
+ ➪ Language : <b>{}</b>
+ ➪ Status : <b>{}</b>
+━━━━━━━━━ ✧ ━━━━━━━━
 """
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('❓ Help', callback_data='help'),
-            InlineKeyboardButton('🦊 About', callback_data='about')
+            InlineKeyboardButton('🧪 Help', callback_data='help'),
+            InlineKeyboardButton('🧬 About', callback_data='about')
         ], [
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('❌ Close', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🏠 Home', callback_data='home'),
+            InlineKeyboardButton('🦠 Home', callback_data='home'),
             InlineKeyboardButton('🦊 About', callback_data='about')
         ], [
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('❌ Close', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🏠 Home', callback_data='home'),
-            InlineKeyboardButton('❓ Help', callback_data='help')
+            InlineKeyboardButton('🦠 Home', callback_data='home'),
+            InlineKeyboardButton('🧪 Help', callback_data='help')
         ], [
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('❌ Close', callback_data='close')
         ]]
     )
     BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('📛 Close', callback_data='close')
+            InlineKeyboardButton('❌ Close', callback_data='close')
         ]]
     )
     FORMAT_SELECTION = "Now Select the desired formats"
